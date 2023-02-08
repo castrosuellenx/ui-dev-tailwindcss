@@ -1,3 +1,16 @@
 @tailwind base;
+
+.btn {
+  @apply font-semibold rounded-md outline-none px-4;
+}
+
+.btn-teal {
+  @apply text-white bg-teal-500 hover:bg-teal-600;
+}
+
+.btn-red {
+  @apply text-red-500 hover:text-white hover:bg-red-500 border border-red-500;
+}
+
 @tailwind components;
 @tailwind utilities;
